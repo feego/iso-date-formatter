@@ -1,4 +1,5 @@
 {
+	"diretory": "components",
     "scripts": {
         "postinstall": "npm install && webpack"
     }
