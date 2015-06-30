@@ -1,5 +1,5 @@
 {
     "scripts": {
-        "postinstall": "npm install; webpack"
+        "postinstall": "npm install && webpack"
     }
 }
