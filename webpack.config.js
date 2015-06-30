@@ -1,12 +1,14 @@
+var glob = require("glob");
+entry: glob.sync("./test/**/*Spec.js")
+
 module.exports = {
-    entry: "./harmony/src/iso-date-formatter.js",
+    entry: glob.sync("./harmony/src/*.js"),
     output: {
-        path: "./harmony/build/",
-        filename: "bundle.js"
+        filename: "./harmony/build/build.js"
     },
     module: {
         loaders: [
             { test: /\.js$/, loader: "babel?stage=0" }
         ]
     }
-};
+}
