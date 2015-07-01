@@ -5,7 +5,7 @@ Polymer element for formatting ISO date strings.
 #### Installation
 
 ```
-$ bower install feego/iso-date-formatter
+bower install feego/iso-date-formatter
 ```
 
 #### Usage
@@ -17,8 +17,8 @@ $ bower install feego/iso-date-formatter
 #### Compile ES2015 source files
 
 ```
-$ npm install babel-loader
-$ webpack ./harmony/src/iso-date-formatter.js ./harmony/build/build.js --module-bind "js=babel?stage=0"
+npm install babel-loader
+webpack ./harmony/src/iso-date-formatter.js ./harmony/build/build.js --module-bind "js=babel?stage=0"
 ```
 
 #### License
